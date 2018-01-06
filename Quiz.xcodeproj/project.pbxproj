@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC56CBE21F794FAA009DCB98 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC56CBE11F794FAA009DCB98 /* Player.swift */; };
+		AC56CBE41F7953CB009DCB98 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC56CBE31F7953CB009DCB98 /* TableViewCell.swift */; };
+		AC56CBE61F795A24009DCB98 /* ErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC56CBE51F795A24009DCB98 /* ErrorViewController.swift */; };
 		ACB95E7C1F79242D000B5022 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB95E7B1F79242D000B5022 /* AppDelegate.swift */; };
 		ACB95E7E1F79242D000B5022 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB95E7D1F79242D000B5022 /* ViewController.swift */; };
 		ACB95E811F79242D000B5022 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB95E7F1F79242D000B5022 /* Main.storyboard */; };
@@ -14,6 +17,9 @@
 		ACB95E861F79242D000B5022 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB95E841F79242D000B5022 /* LaunchScreen.storyboard */; };
 		ACB95E911F79242D000B5022 /* QuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB95E901F79242D000B5022 /* QuizTests.swift */; };
 		ACB95E9C1F79242D000B5022 /* QuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB95E9B1F79242D000B5022 /* QuizUITests.swift */; };
+		ACB95EAA1F7939B9000B5022 /* QuizNetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB95EA91F7939B9000B5022 /* QuizNetworkTests.swift */; };
+		ACB95EAC1F793A63000B5022 /* NetworkApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB95EAB1F793A63000B5022 /* NetworkApi.swift */; };
+		ACB95EAD1F793A6C000B5022 /* NetworkApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB95EAB1F793A63000B5022 /* NetworkApi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC56CBE11F794FAA009DCB98 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		AC56CBE31F7953CB009DCB98 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		AC56CBE51F795A24009DCB98 /* ErrorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorViewController.swift; sourceTree = "<group>"; };
 		ACB95E781F79242D000B5022 /* Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACB95E7B1F79242D000B5022 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACB95E7D1F79242D000B5022 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,8 @@
 		ACB95E971F79242D000B5022 /* QuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACB95E9B1F79242D000B5022 /* QuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizUITests.swift; sourceTree = "<group>"; };
 		ACB95E9D1F79242D000B5022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACB95EA91F7939B9000B5022 /* QuizNetworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizNetworkTests.swift; sourceTree = "<group>"; };
+		ACB95EAB1F793A63000B5022 /* NetworkApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkApi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +110,10 @@
 			children = (
 				ACB95E7B1F79242D000B5022 /* AppDelegate.swift */,
 				ACB95E7D1F79242D000B5022 /* ViewController.swift */,
+				ACB95EAB1F793A63000B5022 /* NetworkApi.swift */,
+				AC56CBE31F7953CB009DCB98 /* TableViewCell.swift */,
+				AC56CBE51F795A24009DCB98 /* ErrorViewController.swift */,
+				AC56CBE11F794FAA009DCB98 /* Player.swift */,
 				ACB95E7F1F79242D000B5022 /* Main.storyboard */,
 				ACB95E821F79242D000B5022 /* Assets.xcassets */,
 				ACB95E841F79242D000B5022 /* LaunchScreen.storyboard */,
@@ -111,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				ACB95E901F79242D000B5022 /* QuizTests.swift */,
+				ACB95EA91F7939B9000B5022 /* QuizNetworkTests.swift */,
 				ACB95E921F79242D000B5022 /* Info.plist */,
 			);
 			path = QuizTests;
@@ -259,6 +275,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC56CBE41F7953CB009DCB98 /* TableViewCell.swift in Sources */,
+				AC56CBE61F795A24009DCB98 /* ErrorViewController.swift in Sources */,
+				AC56CBE21F794FAA009DCB98 /* Player.swift in Sources */,
+				ACB95EAC1F793A63000B5022 /* NetworkApi.swift in Sources */,
 				ACB95E7E1F79242D000B5022 /* ViewController.swift in Sources */,
 				ACB95E7C1F79242D000B5022 /* AppDelegate.swift in Sources */,
 			);
@@ -268,7 +288,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACB95EAD1F793A6C000B5022 /* NetworkApi.swift in Sources */,
 				ACB95E911F79242D000B5022 /* QuizTests.swift in Sources */,
+				ACB95EAA1F7939B9000B5022 /* QuizNetworkTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

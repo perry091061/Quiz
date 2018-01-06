@@ -15,7 +15,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        let network = NetworkApi.sharedInstance
+        if !network.isConnectedToNetwork()
+        {
+            let viewController = self.window?.rootViewController?.storyboard?.instantiateViewController(withIdentifier: "ErrorViewController") as! UIViewController
+            self.window?.rootViewController = viewController
+            
+        }
         return true
     }
 
