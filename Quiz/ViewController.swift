@@ -14,6 +14,7 @@ class ViewController: UIViewController, completed {
     @IBOutlet weak var lblScore:    UILabel!
     @IBOutlet weak var tableView:   UITableView!
     
+    
     var currentScore = 0
     var player1:Int?         // First player selected
     var player2:Int?         // Second player selected

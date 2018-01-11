@@ -20,6 +20,7 @@
 		ACB95EAA1F7939B9000B5022 /* QuizNetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB95EA91F7939B9000B5022 /* QuizNetworkTests.swift */; };
 		ACB95EAC1F793A63000B5022 /* NetworkApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB95EAB1F793A63000B5022 /* NetworkApi.swift */; };
 		ACB95EAD1F793A6C000B5022 /* NetworkApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB95EAB1F793A63000B5022 /* NetworkApi.swift */; };
+		ACBCFA1420012CA2002D8642 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBCFA1320012CA2002D8642 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		ACB95E9D1F79242D000B5022 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACB95EA91F7939B9000B5022 /* QuizNetworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizNetworkTests.swift; sourceTree = "<group>"; };
 		ACB95EAB1F793A63000B5022 /* NetworkApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkApi.swift; sourceTree = "<group>"; };
+		ACBCFA1320012CA2002D8642 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				ACB95E7B1F79242D000B5022 /* AppDelegate.swift */,
 				ACB95E7D1F79242D000B5022 /* ViewController.swift */,
 				ACB95EAB1F793A63000B5022 /* NetworkApi.swift */,
+				ACBCFA1320012CA2002D8642 /* ViewModel.swift */,
 				AC56CBE31F7953CB009DCB98 /* TableViewCell.swift */,
 				AC56CBE51F795A24009DCB98 /* ErrorViewController.swift */,
 				AC56CBE11F794FAA009DCB98 /* Player.swift */,
@@ -281,6 +284,7 @@
 				ACB95EAC1F793A63000B5022 /* NetworkApi.swift in Sources */,
 				ACB95E7E1F79242D000B5022 /* ViewController.swift in Sources */,
 				ACB95E7C1F79242D000B5022 /* AppDelegate.swift in Sources */,
+				ACBCFA1420012CA2002D8642 /* ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
